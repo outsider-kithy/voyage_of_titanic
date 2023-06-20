@@ -34,7 +34,7 @@ function init(){
     });
     renderer.setSize(window.innerWidth,window.innerHeight);
     renderer.setPixelRatio(dpi);
-    //renderer.toneMapping = THREE.ACESFilmicToneMapping;//白飛びをどう処理するか
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;//白飛びをどう処理するか
     container.appendChild(renderer.domElement);
 
     //シーン
