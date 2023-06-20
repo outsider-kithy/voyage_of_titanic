@@ -1,4 +1,4 @@
-import * as THREE from '../build/three';
+import * as THREE from 'three';
 
 import { Water } from '../jsm/objects/Water.js';
 import { Sky } from '../jsm/objects/Sky.js';
